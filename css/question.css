@@ -1,0 +1,90 @@
+body {
+    /* font-family: "Open Sans"; */
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    margin: 8% auto;
+}
+
+h1 {
+    /* font-family: "Cookie"; */
+    text-align: center;
+    font-size: 60px;
+}
+
+.hgt {
+    margin-top: 47px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.main-pE {
+    margin: auto;
+    border-radius: 85px;
+    width: 70%;
+    min-height: 495px;
+    max-height: 675px;
+    top: 15px;
+}
+
+.img-top {
+    width: 100%;
+    height: 35.8vw;
+    object-fit: fill;
+}
+
+.img {
+    width: 95%;
+    justify-content: center;
+    box-shadow: inset;
+}
+
+.imgdiv {
+    position: relative;
+}
+
+.imgdiv i {
+    position: absolute;
+    left: 13px;
+    top: 7px;
+}
+
+.inp {
+    border: none;
+    border-bottom: 1px solid #999;
+    padding: 0px 30px;
+    line-height: 40px;
+    margin: 7px;
+    box-shadow: inset;
+}
+
+.errorTxt {
+    font-family: var(--bs-font-sans-serif);
+    font-size: 13px;
+    color: red;
+}
+
+.errorDiv {
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.txtlink {
+    color: green;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.txtlink1 {
+    color: blue;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.txtlink:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
